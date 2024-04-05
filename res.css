@@ -1,0 +1,414 @@
+.main{
+    width: 100%;
+    height: 200px;
+    background: rgba(140, 199, 125, 0.332);  
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background: rgba(102, 72, 46, 0.829);
+}
+.hh1 h1{
+    width: 40%;
+    height: 50px;
+    /* border: 2px solid black; */
+    font-family:'Times New Roman', Times, serif;
+    float: left;
+    margin-left: 20px;
+    color: rgba(130, 228, 121, 0.81);
+    font-size: 40px;
+
+
+}
+.header img{
+    margin-left: 20px;
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    float: left;
+}
+.icon {
+    margin-left: 1000px;
+    width: 10%;
+    color:  rgba(130, 228, 121, 0.81);
+    /* text-align: center; */
+    padding-top: 30px;
+    /* border: 2px solid black; */
+    
+}
+.icon i{
+    margin-left: 4px;
+}
+.icon i:hover{
+    color: white;
+}
+.header p a{
+    display: inline;
+    color: rgba(0, 0, 0, 0.885);
+}
+.details p{
+    width: 14%;
+    height: 20px;
+    /* border: 2px solid black; */
+    float: left;
+    margin-left: 250px;
+    color: rgba(130, 228, 121, 0.81);
+    font-size: 18px;
+}
+.details p a{
+    color: rgba(130, 228, 121, 0.81);
+}
+.details p a:hover{
+    color: white;
+}
+.nav
+{
+    width: 70%;
+    height: 80px;
+    /* border: 2px solid black; */
+    text-align: left;
+    margin-left: 220PX;
+    padding-top: 20px;
+}
+.nav li{
+    color: rgba(102, 72, 46, 0.829);
+    font-size: 25px;
+    margin-left: 100px;
+    float: left;
+    text-decoration: none;
+}
+.nav li:hover{
+    color: white;
+}
+.block3
+{
+    width: 100%;
+    height: 200%;
+    position: relative;
+
+}
+.block3 img{
+    width: 100%;
+    height: 200%;
+}
+.color-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200%;
+    background-color: rgba(109, 128, 95, 0.356) ;
+}
+.sub1{
+    width: 38%;
+    height: 230px;
+    position: absolute;
+    top: 0;
+    background-color:  rgb(181, 173, 169);
+    border: 3px solid rgba(140, 199, 125, 0.332);
+    border-radius: 10px;
+    margin: 400px;
+    margin-top: 290px;
+    margin-left: 450px;
+    text-align: center;
+
+}
+
+.sub1 h1,p{
+    color:  rgba(102, 72, 46, 0.829);
+    font-family: 'Times New Roman', Times, serif;
+}
+.sub1 h1:hover{
+    color: whitesmoke ;
+    transform: scale(1.1);
+    transition: 1s;
+}
+.but{
+    width: 90%;
+    margin-left: 10px;
+}
+.but button{
+    background-color:rgba(140, 199, 125, 0.332);
+    color:  rgba(102, 72, 46, 0.829);
+    height: 40px;
+    box-shadow: 10px;
+    margin-left: 60px;
+}
+
+/* ----------------------Block 5--------------------------- */
+.block5{
+    width: 100%;
+    margin-top: 450px;
+}
+.b5img img{
+    width: 30%;
+    height: 400px;
+    position: relative;
+    float: left;
+    margin-left: 60px;
+}
+.b5sub{
+    width: 30%;
+    height: 400px;
+    float: left;
+    margin-left: 20px;
+}
+.b5sub h1{
+    margin-top: 20px;
+    text-align: center;
+}
+.b5sub p{
+    text-align: justify;
+    width: 90%;
+    font-size: 22px;
+    margin-left: 20px;
+}
+.b5img1{
+    width: 30%;
+    height: 400px;
+    float: left;
+    margin-left: 20px;
+    border-radius: 40px;
+
+}
+.b5img1 img{
+    width: 100%;
+    height: 400px;
+}
+/* ---------------------------block 4------------------------- */
+
+.block4
+{
+    background: rgba(140, 199, 125, 0.332);
+    border: 2px solid black;
+    width: 80%;
+    height: 600px;
+    top: 430px;
+    position: relative;
+    margin-left: 150px;
+}
+/* -------------------sub1 block4--------------------- */
+
+.b4sub1
+{
+    position: absolute;
+    float: left;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+.b4sub1 img{
+    width: 100%;
+    height: 410px;
+    border-radius: 20px;
+}
+.b4sub1 a {
+    color:  rgba(102, 72, 46, 0.829);
+}
+.b4sub1 h3{
+    border: 2px solid rgba(102, 72, 46, 0.829);
+    width: 100px;
+    margin-left: 120px;
+}
+.b4sub1 h3:hover{
+    border: black;
+    color: darkgray;
+    background: rgba(102, 72, 46, 0.829);
+    
+}
+.b4sub1 a:hover h1{
+    border: 2px dotted rgba(102, 72, 46, 0.829);
+    width: 100px;
+    margin-left: 120px;
+}
+/* -------------------sub2 block4--------------------- */
+.b4sub2
+{
+    position: absolute;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 415px;
+    float: left;
+}
+.b4sub2 img{
+    width: 100%;
+    height: 410px;
+    border-radius: 20px;
+}
+.b4sub2 a {
+    color:  rgba(102, 72, 46, 0.829);
+}
+.b4sub2 h3{
+    border: 2px solid rgba(102, 72, 46, 0.829);
+    width: 100px;
+    margin-left: 120px;
+}
+.b4sub2 h3:hover{
+    border: black;
+    color: darkgray;
+    background: rgba(102, 72, 46, 0.829);
+    
+}
+.b4sub2 a:hover h1{
+    border: 2px dotted rgba(102, 72, 46, 0.829);
+    width: 100px;
+    margin-left: 120px;
+}
+/* --------------------sub3 block4--------------------- */
+.b4sub3
+{
+    position: absolute;
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 800px;
+    float: left;
+}
+.b4sub3 img{
+    width: 100%;
+    height: 410px;
+    border-radius: 20px;
+}
+.b4sub3 a {
+    color:  rgba(102, 72, 46, 0.829);
+}
+.b4sub3 h3{
+    border: 2px solid rgba(102, 72, 46, 0.829);
+    width: 100px;
+    margin-left: 120px;
+}
+.b4sub3 h3:hover{
+    border: black;
+    color: darkgray;
+    background: rgba(102, 72, 46, 0.829);
+    
+}
+.b4sub3 a:hover h1{
+    border: 2px dotted rgba(102, 72, 46, 0.829);
+    width: 100px;
+    margin-left: 120px;
+}
+.block6{
+    width: 100%;
+    height: 450px;
+    margin-top: 440px;
+    /* border: 2px solid black; */
+    text-align: center;
+
+}
+.block6 h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(102, 72, 46, 0.829) ;
+}
+.block6 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.b6img{
+    width: 15%;
+    height: 220px;
+    border: 2px solid black;
+    border-radius: 200px;
+    margin-left: 250px;
+    margin-top: 10px;
+    float: left;
+}
+.b6img img{
+    width: 100%;
+    height: 220px;
+    border-radius: 200px;
+
+}
+.b6img1{
+    width: 15%;
+    height: 220px;
+    border: 2px solid black;
+    border-radius: 200px;
+    margin-left: 150px;
+    margin-top: 10px;
+    float: left;
+}
+.b6img1 img{
+    width: 100%;
+    height: 220px;
+    border-radius: 200px;
+
+}
+.b6img2{
+    width: 15%;
+    height: 220px;
+    border: 2px solid black;
+    border-radius: 200px;
+    margin-left: 150px;
+    margin-top: 10px;
+    float: left;
+}
+.b6img2 img{
+    width: 100%;
+    height: 220px;
+    border-radius: 200px;
+
+}
+.block7{
+    background: rgba(102, 72, 46, 0.515);
+    margin-top: 10px;
+    width: 100%;
+    height: 400px;
+}
+.b7img{
+    width: 40%;
+    height: 400px;
+    float: left;
+}
+.b7img img{
+    width: 100%;
+    height: 350px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.b7time{
+    width: 25%;
+    height: 300px;
+    /* border: 2px solid black; */
+    float: left;
+    margin-top: 60px;
+    text-align: center;
+}
+.b7time p{
+    color: black;
+    font-size: 20px;
+}
+.b7loc{
+    width: 25%;
+    height: 300px;
+    /* border: 2px solid black; */
+    float: left;
+    margin-top: 60px;
+    text-align: center;
+}
+.b7loc button{
+    margin-top: 20px;
+    background: rgba(99, 68, 41, 0.882);
+    height: 40px;
+    color: bisque;
+}
+.b7loc p{
+    color: black;
+}
+.b7but button{
+    background: rgba(63, 107, 52, 0.526);
+    width: 120px;
+    height: 40px;
+    margin-top: 30px;
+    color: bisque;
+}
